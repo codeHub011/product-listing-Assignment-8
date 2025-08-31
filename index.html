@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Product Listing</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <h1>🛍️ E-Commerce Product Listing</h1>
+
+  <!-- Filters -->
+  <div class="filters">
+    <input type="text" id="search" placeholder="Search products...">
+    <select id="categoryFilter">
+      <option value="">All Categories</option>
+      <option value="electronics">Electronics</option>
+      <option value="clothing">Clothing</option>
+      <option value="accessories">Accessories</option>
+    </select>
+    <select id="priceFilter">
+      <option value="">All Prices</option>
+      <option value="0-50">Below $50</option>
+      <option value="50-100">$50 - $100</option>
+      <option value="100-500">$100 - $500</option>
+    </select>
+    <select id="ratingFilter">
+      <option value="">All Ratings</option>
+      <option value="4">⭐ 4 & above</option>
+      <option value="3">⭐ 3 & above</option>
+    </select>
+  </div>
+
+  <!-- Product Grid -->
+  <div id="productGrid" class="grid"></div>
+
+  <script src="script.js">
+    
+   
+  </script>
+</body>
+</html>
